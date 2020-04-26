@@ -1,0 +1,16 @@
+PODS:
+  - MGRSConverter (0.1.0)
+
+DEPENDENCIES:
+  - MGRSConverter (from `../`)
+
+EXTERNAL SOURCES:
+  MGRSConverter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGRSConverter: 18e852c9966bd0db9e4fe0e92517fff3ec9b2ead
+
+PODFILE CHECKSUM: d93302bbfa085d76b98413784ac91dc6858c66cb
+
+COCOAPODS: 1.8.4

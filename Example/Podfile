@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'MGRSConverter_Example' do
+  pod 'MGRSConverter', :path => '../'
+
+end

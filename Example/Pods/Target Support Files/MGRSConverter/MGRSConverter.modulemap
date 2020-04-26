@@ -1,0 +1,6 @@
+framework module MGRSConverter {
+  umbrella header "MGRSConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}
