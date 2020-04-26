@@ -1,8 +1,18 @@
-# MGRSConverter
-Converts between Lat/Lon and MGRS Coordinates
+# MGRSConverter - Forked and Modified
+
+This library converts between Lat/Lon, UTM, and MGRS coordinates. 
 
 The math and theory for the conversions between Latitude/Longitude, UTM, and MGRS was adapted from code provided by https://www.movable-type.co.uk/scripts/latlong-utm-mgrs.html
-The first unpublished iteration of this was a simple translation of the JavaScript provided to Swift.
-Subsequent iterations have evolved into packaging the math within into a more useable iOS interface.
+The original source code translating from Javascript to Swift was provided by BlacksmithDevelopers.
 
-The next branch of this project will focus on offline map areas.
+## Modifications
+
+The original repository was re-worked to conform with the directory structure suitable for release as a Cocoapod. The code was updated for compatibility with Swift 5.
+The Cocoapod library contains the original Coordinates framework for conversion between units. The Example application contains the original demo MGRSConverter app.
+
+## Cocoapod
+
+Incorporate this library into your project with CocoaPods. Add this line to your podfile:
+
+`pod 'MGRSConverter'`
+
