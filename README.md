@@ -10,9 +10,9 @@ The original source code translating from Javascript to Swift was provided by Bl
 The original repository was re-worked by KicksApps GmbH to conform with the directory structure suitable for release as a Swift Package. The code was updated for compatibility with Swift 5.
 The library contains the original Coordinates framework for conversion between units. The Example application contains the original demo MGRSConverter app.
 
-## Cocoapod
+## SwiftPM
 
-Incorporate this library into your project via SPM. Include this dependency into your project: 
+Incorporate this library into your project via Swift Package Manager (SPM). To include this dependency into your project, add the following package: 
 
 `https://github.com/KicksApps/MGRSConverter.git`
 
